@@ -1,0 +1,12 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
+PROJECT(HELLO)
+
+MESSAGE(STATUS "This is project binary dir" ${HELLO_BINARY_DIR})
+MESSAGE(STATUS "This is project source dir" ${HELLO_SOURCE_DIR})
+
+MESSAGE(STATUS "This is cmake binary dir" ${CMAKE_BINARY_DIR})
+MESSAGE(STATUS "This is cmake source dir" ${CMAKE_SOURCE_DIR})
+
+
+ADD_SUBDIRECTORY(libhello)
+ADD_SUBDIRECTORY(src)
