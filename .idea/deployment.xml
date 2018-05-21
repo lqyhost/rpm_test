@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="34">
+    <serverData>
+      <paths name="34">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/code/rpm_build_test" local="$PROJECT_DIR$" web="/code/rpm_build_test/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

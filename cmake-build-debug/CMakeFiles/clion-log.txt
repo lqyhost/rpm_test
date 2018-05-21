@@ -1,0 +1,13 @@
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/qliu/Documents/git/rpm_build_test
+CMake Error at CMakeLists.txt:9 (INCLUDE):
+  include could not find load file:
+
+    GetGitRevisionDescription
+
+
+CMake Error at CMakeLists.txt:10 (GET_GIT_HEAD_REVISION):
+  Unknown CMake command "GET_GIT_HEAD_REVISION".
+
+
+-- Configuring incomplete, errors occurred!
+See also "/Users/qliu/Documents/git/rpm_build_test/cmake-build-debug/CMakeFiles/CMakeOutput.log".

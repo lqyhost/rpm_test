@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/cc -g -dynamiclib -Wl,-headerpad_max_install_names  -o ../lib/libhello.dylib -install_name /Users/qliu/Documents/git/rpm_build_test/cmake-build-debug/lib/libhello.dylib CMakeFiles/libhello.dir/hello.c.o 
